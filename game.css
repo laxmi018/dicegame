@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(239, 207, 207);
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: auto;
+    text-align: center;
+    padding: 0 15px; 
+}
+
+.cont {
+    margin-left: auto; 
+    margin-right: auto;
+    font-family: "Lobster", cursive;
+    text-shadow: 4px 0 #ac7b6f;
+    font-size: 20px;
+    color: #3b2ad6;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    flex-wrap: wrap;         
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+}
+
+img {
+    width: 100px;
+}
+
+.bottom {
+    padding-top: 30px;
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.btn {
+    background: #d3da72;
+    font-family: "Indie Flower", cursive;
+    border-radius: 7px;
+    border-color: rgb(243, 112, 178);
+    color: #3005ee;
+    font-size: 30px;
+    padding: 16px 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0bf029;
+    text-decoration: none;
+    border-color: red;
+}
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 85%;
+    }
+
+    .cont {
+        font-size: 18px;
+        flex-direction: row; 
+        justify-content: space-around;
+    }
+
+    .dice {
+        margin: 20px;
+    }
+
+    img {
+        width: 90px;
+    }
+
+    .btn {
+        font-size: 28px;
+        padding: 14px 22px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .cont {
+        margin-left: 0;
+        flex-direction: column;
+        text-align: center;  
+    }
+
+    .dice {
+        margin: 15px;
+    }
+
+    img {
+        width: 80px;
+    }
+
+    .btn {
+        font-size: 24px;
+        padding: 12px 20px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .cont {
+        font-size: 16px;
+    }
+
+    img {
+        width: 60px;
+    }
+
+    .btn {
+        font-size: 20px;
+        padding: 10px 18px;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    .cont {
+        font-size: 14px;
+    }
+
+    img {
+        width: 50px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+}
